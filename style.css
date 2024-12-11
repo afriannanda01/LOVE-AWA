@@ -449,6 +449,31 @@ canvas {
   -webkit-transform: scale(0.5) rotate(46deg);
   transform: scale(0.5) rotate(46deg);
 }
+.cute-button {
+    background-color: #ffccd5; /* Warna pastel pink */
+    color: #ffffff; /* Warna teks */
+    font-size: 20px; /* Ukuran teks */
+    font-family: 'Comic Sans MS', cursive; /* Font lucu */
+    border: 2px solid #ff9aa2; /* Border warna pastel */
+    border-radius: 20px; /* Sudut melengkung */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Kursor klik */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bayangan */
+    transition: all 0.3s ease; /* Animasi */
+  }
+  
+  .cute-button:hover {
+    background-color: #ff9aa2; /* Warna saat hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar */
+    transform: scale(1.1); /* Membesar saat hover */
+  }
+  
+  .cute-button:active {
+    background-color: #ff6f91; /* Warna saat tombol ditekan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan mengecil */
+    transform: scale(0.95); /* Sedikit mengecil saat ditekan */
+}
+  
 
 @-webkit-keyframes love {
   50% {
